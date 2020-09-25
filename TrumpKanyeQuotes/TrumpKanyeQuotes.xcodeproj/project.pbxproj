@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182405DA2517AEFB00C4AB57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182405D92517AEFB00C4AB57 /* AppDelegate.swift */; };
+		182405DC2517AEFB00C4AB57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182405DB2517AEFB00C4AB57 /* SceneDelegate.swift */; };
+		182405DE2517AEFB00C4AB57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182405DD2517AEFB00C4AB57 /* ViewController.swift */; };
+		182405E12517AEFB00C4AB57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182405DF2517AEFB00C4AB57 /* Main.storyboard */; };
+		182405E32517AEFC00C4AB57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182405E22517AEFC00C4AB57 /* Assets.xcassets */; };
+		182405E62517AEFC00C4AB57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182405E42517AEFC00C4AB57 /* LaunchScreen.storyboard */; };
+		182405F12517AEFD00C4AB57 /* TrumpElonTweetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182405F02517AEFD00C4AB57 /* TrumpElonTweetsTests.swift */; };
+		182405FC2517AEFD00C4AB57 /* TrumpElonTweetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182405FB2517AEFD00C4AB57 /* TrumpElonTweetsUITests.swift */; };
+		183F18F825186D0E00831264 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183F18F725186D0E00831264 /* QuestionsViewController.swift */; };
+		183F18FD25186D3300831264 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183F18FC25186D3300831264 /* ResultViewController.swift */; };
+		183F19082518732B00831264 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183F19072518732B00831264 /* K.swift */; };
+		18738691251CE23D00EEA4DA /* QuoteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18738690251CE23D00EEA4DA /* QuoteManager.swift */; };
+		187386A5251CECE100EEA4DA /* TrumpQuoteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187386A4251CECE100EEA4DA /* TrumpQuoteData.swift */; };
+		187386AD251CEF3500EEA4DA /* KanyeQuoteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187386AC251CEF3500EEA4DA /* KanyeQuoteData.swift */; };
+		18C3126C251DB8EE00800060 /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3126B251DB8EE00800060 /* QuoteModel.swift */; };
+		18C3128A251DFF4600800060 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 18C31289251DFF4600800060 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		182405ED2517AEFD00C4AB57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182405CE2517AEFB00C4AB57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 182405D52517AEFB00C4AB57;
+			remoteInfo = TrumpElonTweets;
+		};
+		182405F82517AEFD00C4AB57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182405CE2517AEFB00C4AB57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 182405D52517AEFB00C4AB57;
+			remoteInfo = TrumpElonTweets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		182405D62517AEFB00C4AB57 /* TrumpKanyeQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrumpKanyeQuotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		182405D92517AEFB00C4AB57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		182405DB2517AEFB00C4AB57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		182405DD2517AEFB00C4AB57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		182405E02517AEFB00C4AB57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		182405E22517AEFC00C4AB57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		182405E52517AEFC00C4AB57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		182405E72517AEFC00C4AB57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182405EC2517AEFD00C4AB57 /* TrumpKanyeQuotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrumpKanyeQuotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		182405F02517AEFD00C4AB57 /* TrumpElonTweetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrumpElonTweetsTests.swift; sourceTree = "<group>"; };
+		182405F22517AEFD00C4AB57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182405F72517AEFD00C4AB57 /* TrumpKanyeQuotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrumpKanyeQuotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		182405FB2517AEFD00C4AB57 /* TrumpElonTweetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrumpElonTweetsUITests.swift; sourceTree = "<group>"; };
+		182405FD2517AEFD00C4AB57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183F18F725186D0E00831264 /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
+		183F18FC25186D3300831264 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		183F19072518732B00831264 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
+		18738690251CE23D00EEA4DA /* QuoteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteManager.swift; sourceTree = "<group>"; };
+		187386A4251CECE100EEA4DA /* TrumpQuoteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrumpQuoteData.swift; sourceTree = "<group>"; };
+		187386AC251CEF3500EEA4DA /* KanyeQuoteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanyeQuoteData.swift; sourceTree = "<group>"; };
+		18C3126B251DB8EE00800060 /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
+		18C31289251DFF4600800060 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		182405D32517AEFB00C4AB57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182405E92517AEFD00C4AB57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182405F42517AEFD00C4AB57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182405CD2517AEFB00C4AB57 = {
+			isa = PBXGroup;
+			children = (
+				18C31289251DFF4600800060 /* README.md */,
+				182405D82517AEFB00C4AB57 /* TrumpKanyeQuotes */,
+				182405EF2517AEFD00C4AB57 /* TrumpKanyeQuotesTests */,
+				182405FA2517AEFD00C4AB57 /* TrumpKanyeQuotesUITests */,
+				182405D72517AEFB00C4AB57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		182405D72517AEFB00C4AB57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182405D62517AEFB00C4AB57 /* TrumpKanyeQuotes.app */,
+				182405EC2517AEFD00C4AB57 /* TrumpKanyeQuotesTests.xctest */,
+				182405F72517AEFD00C4AB57 /* TrumpKanyeQuotesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		182405D82517AEFB00C4AB57 /* TrumpKanyeQuotes */ = {
+			isa = PBXGroup;
+			children = (
+				182405D92517AEFB00C4AB57 /* AppDelegate.swift */,
+				182405DB2517AEFB00C4AB57 /* SceneDelegate.swift */,
+				1873868D251CE1C700EEA4DA /* Model */,
+				1873868E251CE1E400EEA4DA /* View */,
+				1873868F251CE1F600EEA4DA /* Controller */,
+				182405E22517AEFC00C4AB57 /* Assets.xcassets */,
+				182405E72517AEFC00C4AB57 /* Info.plist */,
+			);
+			path = TrumpKanyeQuotes;
+			sourceTree = "<group>";
+		};
+		182405EF2517AEFD00C4AB57 /* TrumpKanyeQuotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				182405F02517AEFD00C4AB57 /* TrumpElonTweetsTests.swift */,
+				182405F22517AEFD00C4AB57 /* Info.plist */,
+			);
+			path = TrumpKanyeQuotesTests;
+			sourceTree = "<group>";
+		};
+		182405FA2517AEFD00C4AB57 /* TrumpKanyeQuotesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				182405FB2517AEFD00C4AB57 /* TrumpElonTweetsUITests.swift */,
+				182405FD2517AEFD00C4AB57 /* Info.plist */,
+			);
+			path = TrumpKanyeQuotesUITests;
+			sourceTree = "<group>";
+		};
+		1873868D251CE1C700EEA4DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				183F19072518732B00831264 /* K.swift */,
+				18738690251CE23D00EEA4DA /* QuoteManager.swift */,
+				187386A4251CECE100EEA4DA /* TrumpQuoteData.swift */,
+				187386AC251CEF3500EEA4DA /* KanyeQuoteData.swift */,
+				18C3126B251DB8EE00800060 /* QuoteModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1873868E251CE1E400EEA4DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				182405E42517AEFC00C4AB57 /* LaunchScreen.storyboard */,
+				182405DF2517AEFB00C4AB57 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1873868F251CE1F600EEA4DA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				182405DD2517AEFB00C4AB57 /* ViewController.swift */,
+				183F18F725186D0E00831264 /* QuestionsViewController.swift */,
+				183F18FC25186D3300831264 /* ResultViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		182405D52517AEFB00C4AB57 /* TrumpKanyeQuotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182406002517AEFD00C4AB57 /* Build configuration list for PBXNativeTarget "TrumpKanyeQuotes" */;
+			buildPhases = (
+				182405D22517AEFB00C4AB57 /* Sources */,
+				182405D32517AEFB00C4AB57 /* Frameworks */,
+				182405D42517AEFB00C4AB57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrumpKanyeQuotes;
+			productName = TrumpElonTweets;
+			productReference = 182405D62517AEFB00C4AB57 /* TrumpKanyeQuotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		182405EB2517AEFD00C4AB57 /* TrumpKanyeQuotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182406032517AEFD00C4AB57 /* Build configuration list for PBXNativeTarget "TrumpKanyeQuotesTests" */;
+			buildPhases = (
+				182405E82517AEFD00C4AB57 /* Sources */,
+				182405E92517AEFD00C4AB57 /* Frameworks */,
+				182405EA2517AEFD00C4AB57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				182405EE2517AEFD00C4AB57 /* PBXTargetDependency */,
+			);
+			name = TrumpKanyeQuotesTests;
+			productName = TrumpElonTweetsTests;
+			productReference = 182405EC2517AEFD00C4AB57 /* TrumpKanyeQuotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		182405F62517AEFD00C4AB57 /* TrumpKanyeQuotesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182406062517AEFD00C4AB57 /* Build configuration list for PBXNativeTarget "TrumpKanyeQuotesUITests" */;
+			buildPhases = (
+				182405F32517AEFD00C4AB57 /* Sources */,
+				182405F42517AEFD00C4AB57 /* Frameworks */,
+				182405F52517AEFD00C4AB57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				182405F92517AEFD00C4AB57 /* PBXTargetDependency */,
+			);
+			name = TrumpKanyeQuotesUITests;
+			productName = TrumpElonTweetsUITests;
+			productReference = 182405F72517AEFD00C4AB57 /* TrumpKanyeQuotesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		182405CE2517AEFB00C4AB57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					182405D52517AEFB00C4AB57 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					182405EB2517AEFD00C4AB57 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 182405D52517AEFB00C4AB57;
+					};
+					182405F62517AEFD00C4AB57 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 182405D52517AEFB00C4AB57;
+					};
+				};
+			};
+			buildConfigurationList = 182405D12517AEFB00C4AB57 /* Build configuration list for PBXProject "TrumpKanyeQuotes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 182405CD2517AEFB00C4AB57;
+			productRefGroup = 182405D72517AEFB00C4AB57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				182405D52517AEFB00C4AB57 /* TrumpKanyeQuotes */,
+				182405EB2517AEFD00C4AB57 /* TrumpKanyeQuotesTests */,
+				182405F62517AEFD00C4AB57 /* TrumpKanyeQuotesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		182405D42517AEFB00C4AB57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182405E62517AEFC00C4AB57 /* LaunchScreen.storyboard in Resources */,
+				182405E32517AEFC00C4AB57 /* Assets.xcassets in Resources */,
+				18C3128A251DFF4600800060 /* README.md in Resources */,
+				182405E12517AEFB00C4AB57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182405EA2517AEFD00C4AB57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182405F52517AEFD00C4AB57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		182405D22517AEFB00C4AB57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C3126C251DB8EE00800060 /* QuoteModel.swift in Sources */,
+				183F18FD25186D3300831264 /* ResultViewController.swift in Sources */,
+				182405DE2517AEFB00C4AB57 /* ViewController.swift in Sources */,
+				182405DA2517AEFB00C4AB57 /* AppDelegate.swift in Sources */,
+				183F19082518732B00831264 /* K.swift in Sources */,
+				183F18F825186D0E00831264 /* QuestionsViewController.swift in Sources */,
+				18738691251CE23D00EEA4DA /* QuoteManager.swift in Sources */,
+				182405DC2517AEFB00C4AB57 /* SceneDelegate.swift in Sources */,
+				187386AD251CEF3500EEA4DA /* KanyeQuoteData.swift in Sources */,
+				187386A5251CECE100EEA4DA /* TrumpQuoteData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182405E82517AEFD00C4AB57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182405F12517AEFD00C4AB57 /* TrumpElonTweetsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182405F32517AEFD00C4AB57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182405FC2517AEFD00C4AB57 /* TrumpElonTweetsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		182405EE2517AEFD00C4AB57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 182405D52517AEFB00C4AB57 /* TrumpKanyeQuotes */;
+			targetProxy = 182405ED2517AEFD00C4AB57 /* PBXContainerItemProxy */;
+		};
+		182405F92517AEFD00C4AB57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 182405D52517AEFB00C4AB57 /* TrumpKanyeQuotes */;
+			targetProxy = 182405F82517AEFD00C4AB57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		182405DF2517AEFB00C4AB57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182405E02517AEFB00C4AB57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		182405E42517AEFC00C4AB57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182405E52517AEFC00C4AB57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		182405FE2517AEFD00C4AB57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		182405FF2517AEFD00C4AB57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		182406012517AEFD00C4AB57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 72M77GTDAS;
+				INFOPLIST_FILE = TrumpKanyeQuotes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.olinawu.TrumpKanyeQuotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		182406022517AEFD00C4AB57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 72M77GTDAS;
+				INFOPLIST_FILE = TrumpKanyeQuotes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.olinawu.TrumpKanyeQuotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		182406042517AEFD00C4AB57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrumpElonTweetsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.olinawu.TrumpElonTweetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrumpKanyeQuotes.app/TrumpKanyeQuotes";
+			};
+			name = Debug;
+		};
+		182406052517AEFD00C4AB57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrumpElonTweetsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.olinawu.TrumpElonTweetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrumpKanyeQuotes.app/TrumpKanyeQuotes";
+			};
+			name = Release;
+		};
+		182406072517AEFD00C4AB57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrumpElonTweetsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.olinawu.TrumpElonTweetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrumpElonTweets;
+			};
+			name = Debug;
+		};
+		182406082517AEFD00C4AB57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrumpElonTweetsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.olinawu.TrumpElonTweetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrumpElonTweets;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		182405D12517AEFB00C4AB57 /* Build configuration list for PBXProject "TrumpKanyeQuotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182405FE2517AEFD00C4AB57 /* Debug */,
+				182405FF2517AEFD00C4AB57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182406002517AEFD00C4AB57 /* Build configuration list for PBXNativeTarget "TrumpKanyeQuotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182406012517AEFD00C4AB57 /* Debug */,
+				182406022517AEFD00C4AB57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182406032517AEFD00C4AB57 /* Build configuration list for PBXNativeTarget "TrumpKanyeQuotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182406042517AEFD00C4AB57 /* Debug */,
+				182406052517AEFD00C4AB57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182406062517AEFD00C4AB57 /* Build configuration list for PBXNativeTarget "TrumpKanyeQuotesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182406072517AEFD00C4AB57 /* Debug */,
+				182406082517AEFD00C4AB57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 182405CE2517AEFB00C4AB57 /* Project object */;
+}
